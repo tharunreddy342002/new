@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+console.log("var var")
+var x=5;
+if(true){
+    var x=10;
+    var x=15;
+    console.log("x="+x);
+}
+console.log("x="+x);
+
+console.log("let let")
+let a=5;
+if(true){
+    let a=10;
+    console.log("a="+a);
+}
+console.log("a="+a);
+
+console.log("var let")
+var b=5;
+if(true){
+    let b=10;
+    console.log("b="+b);
+}
+console.log("b="+b);
+
+console.log("let var")
+let c=5;
+if(true){
+    var n=10;
+    console.log("n="+n);
+}
+console.log("c="+c);
+
+console.log("var var")
+var i=100;
+if(true){
+    for(var i=1;i<10;i++)
+    console.log("i="+i);
+}
+console.log("i="+i);
+
+console.log("let let")
+ let j=100;
+if(true){
+    for(let j=1;j<10;j++)
+    console.log("j="+j);
+}
+console.log("j2="+j);
+
+console.log("var let")
+var k=100;
+if(true){
+    for(let k=1;k<10;k++)
+    console.log("k="+k);
+}
+console.log("k2="+k);
+
+console.log("const let")
+const s=10
+for(let s=1;s<=10;s++){
+console.log(s);
+}
+console.log(s);
+
+function Hi() {
+        return "Hi, stranger!";
+    }
+    console.log(Hi());
+
+    hello = () => {
+        return "Hello World!";
+        }
+        console.log(hello());
+
+    // var arr = [7,8,9];
+    // var view = arr.map(function(num) {
+    // return num * num;
+    // });
+    // console.log(view);
+
+    // var arr= [3,4,5];
+    // var display = arr.map((num) => num*num);
+    // console.log(display);
+
+    // let myFunction = (a, b) => a * b;
+    // console.log(myFunction(5,6))
+
+    hi=(val)=>"hello "+val
+    alert(hi("atr"))
+
+</script>
+
+</head>
+<body>
+</body>
+</html>
